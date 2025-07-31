@@ -1,0 +1,41 @@
+You are given a multi-hop question that may involve references to people, places, or objects shown in an image. Your task is to decompose the question into a sequence of simpler subquestions that, when answered in order, lead to the final answer. Follow these guidelines:
+--Replace references to images with "[IMAGE]".
+--Use placeholder "[ENT]" to refer to the answer to the immediately preceding sub-question.
+--Ensure that each sub-question is clear, answerable on its own, and contributes directly to solving the original question.
+--Do not rewrite, merge, or create new questions. Only decompose the given question as is.
+--Do not generate the new question
+
+Examples:
+
+Input: 
+Question: What is the birthplace of the actor associated with the person shown in the image?
+Divide 2-hop subquestions.
+
+Output:
+What is the actor associated with the person shown in the [IMAGE]?
+What is the birthplace of [ENT]?
+
+Input: 
+Which country contains the campus of the university that the person related to the individual in the image attended?
+Divide 3-hop subquestions.
+
+Output:
+What is the name of the [IMAGE] attended?
+What is the campus related to [ENT]?
+Which country contains the [ENT]?
+
+Input: 
+What is the capital of the country where the location shown in the picture is situated?
+Divide 3-hop subquestions
+
+Output:
+What location is shown in the [IMAGE]?
+What is country of the [ENT]?
+What is the capital of the [ENT]？
+
+Now, decompose the following question:
+Input: 
+<<<<QUESTION>>>>
+Divide <<<STEP>>>-hop subquestions.
+
+Output:

@@ -1,0 +1,59 @@
+Task:
+Choose the better-supported answer (A or B) based strictly on the provided fact triples.
+
+Rules:
+
+Output format:
+Final Answer: A or Final Answer: B
+
+Do not explain, repeat the question, or use external knowledge.
+
+Decide solely based on the given triples (head -- relation -- tail).
+
+You must select A or B (no abstentions).
+
+Examples:
+1.
+
+Question: Who won the U.S. presidential election in 1860?
+
+A: Abraham Lincoln
+Facts for A:
+Abraham Lincoln -- wasCandidateOf -- Republican Party;
+Abraham Lincoln -- won -- 1860 Election;
+1860 Election -- typeOf -- U.S. Presidential Election
+
+B: Stephen A. Douglas
+Facts for B:
+Stephen A. Douglas -- wasCandidateOf -- Democratic Party;
+Stephen A. Douglas -- participatedIn -- 1860 Election
+
+Final Answer: A
+
+Question: Which party controlled the House after the 2010 midterm elections?
+
+A: Democratic Party
+Facts for A:
+Democratic Party -- controlledHouse -- before2010;
+Democratic Party -- lostSeatsIn -- 2010 Election
+
+B: Republican Party
+Facts for B:
+Republican Party -- gainedMajorityIn -- 2010 Election;
+2010 Election -- isType -- Midterm Election;
+House -- controlledBy -- Republican Party -- after -- 2010 Election
+
+Final Answer: B
+
+Current Task:
+
+Question: <<<QUESTION>>>
+
+A: <<<Answer A>>>
+Facts for A: <<<Knowledge supporting A>>>
+
+B: <<<Answer B>>>
+Facts for B: <<<Knowledge supporting B>>>
+
+Final Answer:
+

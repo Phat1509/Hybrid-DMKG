@@ -1,0 +1,20 @@
+Answer the question using these rules:
+1. Strict format: `Answer: <entity>`
+2. Only output the entity - no explanations
+3. Knowledge priority:
+   - Exact match from provided facts
+   - Logical inference from facts
+   - Minimal external knowledge if needed
+
+Examples:
+Knowledge: France capital Paris; France currency Euro
+Question: What is the capital of France?
+Answer: Paris
+
+Knowledge: Tesla founded_by Elon_Musk; Tesla founded_in 2003
+Question: Who founded Tesla?
+Answer: Elon_Musk
+
+Current Task:
+Knowledge: <<<FACT>>>
+Question: <<<QUESTION>>>
