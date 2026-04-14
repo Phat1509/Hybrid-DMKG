@@ -42,15 +42,17 @@ Accepted at **AAAI 2026**
 
 ```bash
 .
-├── archive/           # backups and experimental scripts
-├── datasets/          # embeddings, images, triples
-├── en_core_web_md/    # spaCy model
-├── hugging_cache/     # model APIs
-├── prompts/           # LLM prompts
-├── RAE_graph/         # graph modules
-├── test/              # experiments
-├── train/             # training code
-└── wikidata_tools/    # data processing
+├── archive/                  # backups and experimental scripts
+├── datasets/                 # embeddings, images, triples
+├── en_core_web_md/           # spaCy model
+├── hugging_cache/            # model APIs and cache files
+├── prompts/                  # LLM prompts
+├── RAE_graph/                # graph modules
+├── test/                     # experiments and evaluation scripts
+├── train/                    # training code and configurations for Relation Extraction
+├── wikidata_tools/           # data processing
+├── kedkg_requirements.txt    # project dependencies
+└── my_llava_requirements.txt # LLaVA-related dependencies
 ```
 
 ---
@@ -60,20 +62,45 @@ Accepted at **AAAI 2026**
 Install the required dependencies:
 
 ```bash
-pip install torch transformers spacy sentence-transformers flask Pillow
+pip install -r kedkg_requirements.txt
+pip install -r my_llava_requirements.txt
 python -m spacy download en_core_web_md
+```
+
+You may also manually install some common packages if needed:
+
+```bash
+pip install torch transformers spacy sentence-transformers flask Pillow
+```
+
+---
+
+## ⚠️ Notes
+
+This project involves external knowledge sources such as **Wikidata** (and other wiki-related resources).  
+If you are running the project in **mainland China**, you may need proper network access to ensure these resources are reachable.
+
+---
+
+## 🏋️ Training and Checkpoints
+
+The `train/` directory contains the **training scripts, settings, and related configurations for the Relation Extraction module**.
+
+The trained checkpoints obtained from `train/`, as well as some files related to `archive/`, can be found in the shared Baidu Netdisk folder below:
+
+- **Shared folder**: `archive`
+- **Link**: https://pan.baidu.com/s/1RPR0nwK-QDlav5hqlhSjZw?pwd=vi9u
+- **Extraction code**: `vi9u`
+
+After downloading, place the checkpoint in the appropriate directory, for example:
+
+```bash
+../train/results_relation/checkpoint-4140
 ```
 
 ---
 
 ## 🚀 Quick Start
-
-### 1. Start model APIs
-
-```bash
-cd hugging_cache
-python llama2_api.py
-```
 
 Optional VLM services:
 
@@ -83,7 +110,7 @@ python minigpt4_api.py --port 5005
 python llava_api.py --port 5008
 ```
 
-### 2. Run experiments
+Run experiments:
 
 ```bash
 cd test
@@ -98,8 +125,8 @@ python dynamic_exp_LLAMA.py --model_name llama2 --divide_modal llama2
 from extraction_knowlege import RelationExtractor
 
 extractor = RelationExtractor(
-    relation_model_path='../train/results_relation/checkpoint-4140',
-    spacy_model_path='../en_core_web_md'
+    relation_model_path="../train/results_relation/checkpoint-4140",
+    spacy_model_path="../en_core_web_md"
 )
 ```
 
@@ -122,10 +149,13 @@ This project currently supports the following tasks:
 If you find this project useful in your research, please consider citing:
 
 ```bibtex
-@article{yourname2026multimodal,
-  title={Multimodal Knowledge Graph Construction via Relation-Aware Entity Reasoning},
-  author={Your Name et al.},
-  journal={AAAI},
+@inproceedings{yuan2026hybrid,
+  title={Hybrid-DMKG: A Hybrid Reasoning Framework over Dynamic Multimodal Knowledge Graphs for Multimodal Multihop QA with Knowledge Editing},
+  author={Yuan, Li and Huang, Qingfei and Zhu, Bingshan and Cai, Yi and Huang, Qingbao and Zheng, Changmeng and Deng, Zikun and Wang, Tao},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={33},
+  pages={28032--28040},
   year={2026}
 }
 ```
