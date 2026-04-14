@@ -1,0 +1,7 @@
+nohup: ignoring input
+/home/NCUT/teacher/xmy/anaconda3/envs/Kedkg/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Fetching 17 files:   0%|          | 0/17 [00:00<?, ?it/s]Downloading 'model-00002-of-00003.safetensors' to 'llava-1.5-7b-hf/.cache/huggingface/download/D5-QTaCbl9VUFv9Wr0C28eFewRc=.46df6c6e5fad297fe7fbca4963dcf180cb1d0528cabc884d1f603311fed01328.incomplete' (resume from 1793064960/4957878440)
+Download complete. Moving file to llava-1.5-7b-hf/model-00002-of-00003.safetensors
+Fetching 17 files:  53%|█████▎    | 9/17 [06:13<05:32, 41.55s/it]Fetching 17 files: 100%|██████████| 17/17 [06:13<00:00, 22.00s/it]
+/home/NCUT/teacher/xmy/MRAG/PMI/hugging_cache/llava-1.5-7b-hf
