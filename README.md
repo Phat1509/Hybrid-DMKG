@@ -88,10 +88,8 @@ The `train/` directory contains the **training scripts, settings, and related co
 
 The trained checkpoints obtained from `train/`, as well as some files related to `archive/`, can be found in the shared Baidu Netdisk folder below:
 
-- **Shared folder**: `archive`
-- **Link**: https://pan.baidu.com/s/1RPR0nwK-QDlav5hqlhSjZw?pwd=vi9u
-- **Extraction code**: `vi9u`
-
+- **Link**: https://pan.baidu.com/s/18c5bNWeoye5o_2s21LGwOg?pwd=jgx4 
+- **Extraction code**: `jgx4`
 After downloading, place the checkpoint in the appropriate directory, for example:
 
 ```bash
