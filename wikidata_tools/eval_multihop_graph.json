@@ -1,0 +1,937 @@
+[
+  {
+    "case_id": 0,
+    "triples": [
+      {
+        "subject": "m.010bnr/google_13.jpg",
+        "relation": "have image of",
+        "target": "Kankakee"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "country",
+        "target": "United States"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "category for people born here",
+        "target": "Category:Births in Kankakee, Illinois"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "described by source",
+        "target": "Encyclopædia Britannica Ninth Edition"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "instance of",
+        "target": "city of Illinois"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "category of associated people",
+        "target": "Category:People from Kankakee, Illinois"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "described by source",
+        "target": "New International Encyclopedia"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "located in the statistical territorial entity",
+        "target": "Kankakee metropolitan area"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "located in or next to body of water",
+        "target": "Kankakee River"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "located in time zone",
+        "target": "UTC−06:00"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "territory overlaps",
+        "target": "Kankakee urban area"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "described by source",
+        "target": "Collier's New Encyclopedia, 1921"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "located in the administrative territorial entity",
+        "target": "Kankakee County"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "described by source",
+        "target": "Encyclopædia Britannica 11th edition"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "described by source",
+        "target": "The New Student's Reference Work"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "located in time zone",
+        "target": "UTC−05:00"
+      },
+      {
+        "subject": "Kankakee",
+        "relation": "capital of",
+        "target": "Kankakee County"
+      }
+    ]
+  },
+  {
+    "case_id": 1,
+    "triples": [
+      {
+        "subject": "m.010bxh/bing_0.jpg",
+        "relation": "have image of",
+        "target": "Fort Smith, Arkansas"
+      }
+    ]
+  },
+  {
+    "case_id": 2,
+    "triples": [
+      {
+        "subject": "m.010cw1/bing_6.jpg",
+        "relation": "have image of",
+        "target": "Salinas"
+      },
+      {
+        "subject": "Salinas",
+        "relation": "different from",
+        "target": "Salinas"
+      },
+      {
+        "subject": "Salinas",
+        "relation": "instance of",
+        "target": "Wikimedia disambiguation page"
+      }
+    ]
+  },
+  {
+    "case_id": 3,
+    "triples": [
+      {
+        "subject": "m.010nlt/google_2.jpg",
+        "relation": "have image of",
+        "target": "Marrakesh"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "Tours"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "Timbuktu"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "Granada"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "Tashkent"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "Madrid"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "founded by",
+        "target": "Abu Bakr ibn Umar"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "Clermont-Ferrand"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "Marseille"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "Paris"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "Mecca"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "New York City"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "history of topic",
+        "target": "history of Marrakesh"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "Odesa"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "significant event",
+        "target": "Siege of Marrakesh"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "significant event",
+        "target": "Siege of Marrakesh"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "Ajaccio"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "owner of",
+        "target": "Stade El Harti"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "head of government",
+        "target": "Fatima Ezzahra El Mansouri"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "part of",
+        "target": "Imperial cities of Morocco"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "capital of",
+        "target": "Almoravid dynasty"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "located in time zone",
+        "target": "UTC±00:00"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "category for films shot at this location",
+        "target": "Category:Films shot in Marrakesh"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "topic's main Wikimedia portal",
+        "target": "Q29908324"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "described by source",
+        "target": "Great Soviet Encyclopedia (1926–1947)"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "described by source",
+        "target": "Encyclopædia Britannica 11th edition"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "country",
+        "target": "Morocco"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "topic's main template",
+        "target": "Template:Marrakesh"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "instance of",
+        "target": "city"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "Granby"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "described by source",
+        "target": "Meyer’s Universum, Fünfter Band"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "category for people who died here",
+        "target": "Category:Deaths in Marrakech"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "Sidi Bennour"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "instance of",
+        "target": "big city"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "capital of",
+        "target": "Marrakesh-Safi"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "category for people born here",
+        "target": "Q9225712"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "located in time zone",
+        "target": "Western European Time"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "significant event",
+        "target": "Siege of Marrakesh"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "present in work",
+        "target": "Civilization V"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "described by source",
+        "target": "Brockhaus and Efron Encyclopedic Dictionary"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "owner of",
+        "target": "Marrakesh Stadium"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "category for the view of the item",
+        "target": "Category:Views of Marrakech"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "category for maps or plans",
+        "target": "Category:Maps of Marrakech"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "member of",
+        "target": "Organization of World Heritage Cities"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "category of associated people",
+        "target": "Category:People from Marrakesh"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "capital of",
+        "target": "Almohad Caliphate"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "twinned administrative body",
+        "target": "Sousse"
+      },
+      {
+        "subject": "Marrakesh",
+        "relation": "located in the administrative territorial entity",
+        "target": "Marrakesh Prefecture"
+      }
+    ]
+  },
+  {
+    "case_id": 4,
+    "triples": [
+      {
+        "subject": "m.010rvx/bing_21.jpg",
+        "relation": "have image of",
+        "target": "Long Branch, New Jersey"
+      },
+      {
+        "subject": "Long Branch, New Jersey",
+        "relation": "collection",
+        "target": "Museum of Fine Arts Boston"
+      },
+      {
+        "subject": "Long Branch, New Jersey",
+        "relation": "location",
+        "target": "Museum of Fine Arts Boston"
+      },
+      {
+        "subject": "Long Branch, New Jersey",
+        "relation": "copyright status",
+        "target": "public domain"
+      },
+      {
+        "subject": "Long Branch, New Jersey",
+        "relation": "made from material",
+        "target": "canvas"
+      },
+      {
+        "subject": "Long Branch, New Jersey",
+        "relation": "creator",
+        "target": "Winslow Homer"
+      },
+      {
+        "subject": "Long Branch, New Jersey",
+        "relation": "country of origin",
+        "target": "United States"
+      },
+      {
+        "subject": "Long Branch, New Jersey",
+        "relation": "instance of",
+        "target": "painting"
+      },
+      {
+        "subject": "Long Branch, New Jersey",
+        "relation": "made from material",
+        "target": "oil paint"
+      },
+      {
+        "subject": "Long Branch, New Jersey",
+        "relation": "genre",
+        "target": "genre art"
+      }
+    ]
+  },
+  {
+    "case_id": 5,
+    "triples": [
+      {
+        "subject": "m.011_3s/google_8.jpg",
+        "relation": "have image of",
+        "target": "Andre Braugher"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "cause of death",
+        "target": "lung cancer"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "residence",
+        "target": "South Orange"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "religion or worldview",
+        "target": "Unitarian Universalism"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "award received",
+        "target": "Primetime Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "sex or gender",
+        "target": "male"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "native language",
+        "target": "English"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "given name",
+        "target": "Keith"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "described by source",
+        "target": "Obálky knih"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "instance of",
+        "target": "human"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "family name",
+        "target": "Braugher"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "country of citizenship",
+        "target": "United States"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "writing language",
+        "target": "English"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "occupation",
+        "target": "film actor"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "given name",
+        "target": "Andre"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "occupation",
+        "target": "television actor"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "occupation",
+        "target": "actor"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "occupation",
+        "target": "stage actor"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "award received",
+        "target": "Primetime Emmy Award for Outstanding Lead Actor in a Drama Series"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "place of birth",
+        "target": "Chicago"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "manner of death",
+        "target": "natural causes"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "educated at",
+        "target": "Stanford University"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "educated at",
+        "target": "St. Ignatius College Prep"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "languages spoken, written or signed",
+        "target": "English"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "educated at",
+        "target": "Juilliard School"
+      },
+      {
+        "subject": "Andre Braugher",
+        "relation": "place of death",
+        "target": "South Orange"
+      }
+    ]
+  },
+  {
+    "case_id": 6,
+    "triples": [
+      {
+        "subject": "m.011k4g/google_2.jpg",
+        "relation": "have image of",
+        "target": "Donovan"
+      },
+      {
+        "subject": "Donovan",
+        "relation": "different from",
+        "target": "Donovan"
+      },
+      {
+        "subject": "Donovan",
+        "relation": "different from",
+        "target": "Donovan"
+      },
+      {
+        "subject": "Donovan",
+        "relation": "different from",
+        "target": "Donovan"
+      },
+      {
+        "subject": "Donovan",
+        "relation": "different from",
+        "target": "Donovan"
+      },
+      {
+        "subject": "Donovan",
+        "relation": "said to be the same as",
+        "target": "O'Donovan"
+      },
+      {
+        "subject": "Donovan",
+        "relation": "instance of",
+        "target": "Wikimedia disambiguation page"
+      }
+    ]
+  },
+  {
+    "case_id": 7,
+    "triples": [
+      {
+        "subject": "m.011lpr/google_3.jpg",
+        "relation": "have image of",
+        "target": "Joseph Cotten"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "employer",
+        "target": "Federal Theatre Project"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "child",
+        "target": "Judith Lenore LaMonte"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "archives at",
+        "target": "George Mason University Libraries Special Collections Research Center"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "described by source",
+        "target": "Obálky knih"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "instance of",
+        "target": "human"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "place of birth",
+        "target": "Petersburg"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "country of citizenship",
+        "target": "United States"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "documentation files at",
+        "target": "SAPA Foundation, Swiss Archive of the Performing Arts"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "cause of death",
+        "target": "pneumonia"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "work location",
+        "target": "United States"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "occupation",
+        "target": "film actor"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "occupation",
+        "target": "television actor"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "member of political party",
+        "target": "California Republican Party"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "occupation",
+        "target": "screenwriter"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "occupation",
+        "target": "actor"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "occupation",
+        "target": "stage actor"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "award received",
+        "target": "star on Hollywood Walk of Fame"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "family name",
+        "target": "Cotten"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "occupation",
+        "target": "radio personality"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "manner of death",
+        "target": "natural causes"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "occupation",
+        "target": "autobiographer"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "place of burial",
+        "target": "Virginia"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "languages spoken, written or signed",
+        "target": "English"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "cause of death",
+        "target": "head and neck cancer"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "mother",
+        "target": "Sally Whitworth Willson"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "different from",
+        "target": "Maria Saccenti"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "father",
+        "target": "Joseph Cheshire Cotten, Sr."
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "award received",
+        "target": "Volpi Cup for Best Actor"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "given name",
+        "target": "Joseph"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "spouse",
+        "target": "Patricia Medina"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "sex or gender",
+        "target": "male"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "place of death",
+        "target": "Los Angeles"
+      }
+    ]
+  },
+  {
+    "case_id": 8,
+    "triples": [
+      {
+        "subject": "m.011lpr/google_8.jpg",
+        "relation": "have image of",
+        "target": "Joseph Cotten"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "employer",
+        "target": "Federal Theatre Project"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "child",
+        "target": "Judith Lenore LaMonte"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "archives at",
+        "target": "George Mason University Libraries Special Collections Research Center"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "described by source",
+        "target": "Obálky knih"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "instance of",
+        "target": "human"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "place of birth",
+        "target": "Petersburg"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "country of citizenship",
+        "target": "United States"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "documentation files at",
+        "target": "SAPA Foundation, Swiss Archive of the Performing Arts"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "cause of death",
+        "target": "pneumonia"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "work location",
+        "target": "United States"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "occupation",
+        "target": "film actor"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "occupation",
+        "target": "television actor"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "member of political party",
+        "target": "California Republican Party"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "occupation",
+        "target": "screenwriter"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "occupation",
+        "target": "actor"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "occupation",
+        "target": "stage actor"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "award received",
+        "target": "star on Hollywood Walk of Fame"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "family name",
+        "target": "Cotten"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "occupation",
+        "target": "radio personality"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "manner of death",
+        "target": "natural causes"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "occupation",
+        "target": "autobiographer"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "place of burial",
+        "target": "Virginia"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "languages spoken, written or signed",
+        "target": "English"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "cause of death",
+        "target": "head and neck cancer"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "mother",
+        "target": "Sally Whitworth Willson"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "different from",
+        "target": "Maria Saccenti"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "father",
+        "target": "Joseph Cheshire Cotten, Sr."
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "award received",
+        "target": "Volpi Cup for Best Actor"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "given name",
+        "target": "Joseph"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "spouse",
+        "target": "Patricia Medina"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "sex or gender",
+        "target": "male"
+      },
+      {
+        "subject": "Joseph Cotten",
+        "relation": "place of death",
+        "target": "Los Angeles"
+      }
+    ]
+  }
+]
