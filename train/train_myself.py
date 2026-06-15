@@ -1,3 +1,4 @@
+%%writefile train_myself.py
 import json
 from datasets import Dataset, load_from_disk
 from transformers import DistilBertTokenizerFast, DistilBertForTokenClassification, Trainer, TrainingArguments
@@ -11,7 +12,7 @@ id2label = {i: l for l, i in label2id.items()}
 # 加载预处理后的数据
 encoded_dataset = load_from_disk('./RE_dataset')
 
-tokenizer = DistilBertTokenizerFast.from_pretrained('../model/distilbert-base-cased')
+tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-cased')
 
 model = DistilBertForTokenClassification.from_pretrained(
     'distilbert-base-cased',
@@ -34,14 +35,13 @@ def compute_metrics(p):
 
 training_args = TrainingArguments(
     output_dir='./results_relation/',
-    evaluation_strategy='epoch',
+    eval_strategy='epoch',
     learning_rate=2e-5,
     save_strategy='epoch',
-    per_device_train_batch_size=128,
-    per_device_eval_batch_size=128,
+    per_device_train_batch_size=16,   # Giữ ở mức 16 để tránh nghẽn mạch GPU song song
+    per_device_eval_batch_size=16,    # Giữ ở mức 16
     num_train_epochs=10,
     weight_decay=0.01,
-    logging_dir='./logs',
     logging_steps=10,
     save_steps=500,
     save_total_limit=3,
@@ -56,8 +56,8 @@ trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=encoded_dataset['train'],
-    eval_dataset=encoded_dataset['dev'],  # 用dev集调参
-    tokenizer=tokenizer,
+    eval_dataset=encoded_dataset['dev'],  
+    processing_class=tokenizer,
     compute_metrics=compute_metrics
 )
 
@@ -69,12 +69,10 @@ print("Using device:", device)
 model.to(device)
 
 trainer.train()
-dev_results = trainer.evaluate()  # 在dev集上评估
-
+dev_results = trainer.evaluate()  
 
 # 最终在test集上评估
 test_results = trainer.evaluate(encoded_dataset['test'])
-
 
 # 打印test集预测结果
 predictions_output = trainer.predict(encoded_dataset['test'])
@@ -87,7 +85,6 @@ test_dataset = encoded_dataset['test']
 for i, (pred, label) in enumerate(zip(predictions, labels)):
     pred_labels = [id2label[p] for (p, l) in zip(pred, label) if l != -100]
     true_labels = [id2label[l] for l in label if l != -100]
-    # 获取原始文本（假设字段名为 'tokens'，如有不同请替换）
     raw_text = test_dataset[i]['tokens'] if 'tokens' in test_dataset.features else test_dataset[i].get('text', '')
     print(f"Sample {i}:")
     print("  Raw:  ", raw_text)
@@ -107,6 +104,3 @@ with open('./results_relation/prediction_results.json', 'w', encoding='utf-8') a
     json.dump(all_results, f, ensure_ascii=False, indent=2)
 model.save_pretrained('./results_relation/my_best_model_relation_judge')
 tokenizer.save_pretrained('./results_relation/my_best_model_relation_judge')
-
-
-

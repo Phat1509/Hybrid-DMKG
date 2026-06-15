@@ -1,3 +1,4 @@
+%%writefile train.py
 import json
 from datasets import Dataset, load_from_disk
 from transformers import DistilBertTokenizerFast, DistilBertForTokenClassification, Trainer, TrainingArguments
@@ -34,15 +35,14 @@ def compute_metrics(p):
 
 training_args = TrainingArguments(
     output_dir='./results_entity_judge',
-    evaluation_strategy='epoch',
+    eval_strategy='epoch',
     learning_rate=2e-5,
     save_strategy='epoch',
     per_device_train_batch_size=32,
     per_device_eval_batch_size=32,
     num_train_epochs=10,
     weight_decay=0.01,
-    logging_dir='./logs',
-    logging_steps=200,        # 注释掉这行
+    logging_steps=200,        
     save_steps=500,
     save_total_limit=3,
     load_best_model_at_end=True,
@@ -56,7 +56,7 @@ trainer = Trainer(
     args=training_args,
     train_dataset=encoded_dataset['train'],
     eval_dataset=encoded_dataset['test'],
-    tokenizer=tokenizer,
+    processing_class=tokenizer,    # Đã sửa lỗi ở đây!
     compute_metrics=compute_metrics
 )
 
@@ -65,8 +65,6 @@ if not torch.cuda.is_available():
 
 num_gpus = torch.cuda.device_count()
 print(f"Detected {num_gpus} GPU(s).")
-
-# 不需要手动 model.to(device)，Trainer 会自动处理
 
 trainer.train()
 results = trainer.evaluate()
